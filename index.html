@@ -1,109 +1,105 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>TrackX</title>
     <!-- CSS File -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
     <!-- font awosome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
-        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <!-- Google fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-        href="https://fonts.googleapis.com/css2?family=Elms+Sans:ital,wght@0,100..900;1,100..900&family=Oi&family=SN+Pro:ital,wght@0,200..900;1,200..900&display=swap"
-        rel="stylesheet">
+      href="https://fonts.googleapis.com/css2?family=Elms+Sans:ital,wght@0,100..900;1,100..900&family=Oi&family=SN+Pro:ital,wght@0,200..900;1,200..900&display=swap"
+      rel="stylesheet"
+    />
     <link
-        href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Elms+Sans:ital,wght@0,100..900;1,100..900&family=Oi&family=SN+Pro:ital,wght@0,200..900;1,200..900&display=swap"
-        rel="stylesheet">
+      href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Elms+Sans:ital,wght@0,100..900;1,100..900&family=Oi&family=SN+Pro:ital,wght@0,200..900;1,200..900&display=swap"
+      rel="stylesheet"
+    />
     <link
-        href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Black+Ops+One&family=Elms+Sans:ital,wght@0,100..900;1,100..900&family=Oi&family=SN+Pro:ital,wght@0,200..900;1,200..900&display=swap"
-        rel="stylesheet">
+      href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Black+Ops+One&family=Elms+Sans:ital,wght@0,100..900;1,100..900&family=Oi&family=SN+Pro:ital,wght@0,200..900;1,200..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-    
-</head>
-
-<body>
-
-    
+  <body>
     <!-- NAVAR SECTION -->
     <header>
-        <div class="navbar">
+      <div class="navbar">
+        <!-- logo -->
 
-            <!-- logo -->
+        <a href="index.html" class="logo">
+          <p class="logo-primary">TRACK</p>
+          <p class="logo-accent">X</p>
+        </a>
 
-            <div class="logo">
-                <p class="logo-primary">TRACK</p>
-                <p class="logo-accent">X</p>
-            </div>
+        <!-- CTA Buttons -->
 
-            <!-- CTA Buttons -->
-
-            <div class="cta-buttons">
-                <a href="#" class="login">Login</a>
-                <a href="#" class="sign-up">Sign up</a>
-            </div>
-
+        <div class="cta-buttons">
+          <a href="#" class="login">Login</a>
+          <a href="Signup.html" class="sign-up">Sign up</a>
         </div>
+      </div>
     </header>
-
-
 
     <!-- HERO SECTION -->
     <section class="hero">
+      <section class="hero-content">
+        <!-- TAGLINE -->
+        <div class="tagline-border">
+          <div class="glowing-dot">
+            <i class="fa-solid fa-circle"></i>
+          </div>
+          <div class="tagline">
+            <p>Small improvements every day become massive over time.</p>
+          </div>
+        </div>
 
+        <!-- HERO TEXT & CTA BUTTON-->
 
-        <section class="hero-content">
-            <!-- TAGLINE -->
-            <div class="tagline-border">
-                <div class="glowing-dot">
-                    <i class="fa-solid fa-circle"></i>
-                </div>
-                <div class="tagline">
-                    <p>Small improvements every day become massive over time.</p>
-                </div>
-            </div>
+        <div class="hero-text-cta">
+          <div class="main-text">
+            <p class="main-text">
+              MEASURE YOUR<span class="main-text" id="orange-text"
+                >EXECUTION</span
+              >
+            </p>
+          </div>
+          <div class="sub-text">
+            <p>
+              Create your roadmap, measure progress, and stay consistent with a
+              system designed for real growth.
+            </p>
+          </div>
+          <div>
+            <a href="#" class="cta-button">
+              START TRACKING<span class="cta-button-circle-arrow">
+                <i class="fa-solid fa-arrow-right" id="arrow"></i>
+              </span>
+            </a>
+          </div>
+        </div>
+      </section>
 
-            <!-- HERO TEXT & CTA BUTTON-->
-
-            <div class="hero-text-cta">
-                <div class="main-text">
-                    <p class="main-text">
-                        MEASURE YOUR<span class="main-text" id="orange-text">EXECUTION</span>
-                    </p>
-                </div>
-                <div class="sub-text">
-                    <p>
-                        Create your roadmap, measure progress, and stay consistent with a system designed for real
-                        growth.
-                    </p>
-                </div>
-                <div>
-                    <a href="#" class="cta-button">
-                        START TRACKING<span class="cta-button-circle-arrow">
-                            <i class="fa-solid fa-arrow-right" id="arrow"></i>
-                        </span>
-                    </a>
-                </div>
-            </div>
-        </section>
-
-        <section class="mobile">
-            <div class="mobile-screen">
-                <div class="camera"></div>
-            </div>
-        </section>
+      <section class="mobile">
+        <div class="mobile-screen">
+          <div class="camera"></div>
+        </div>
+      </section>
     </section>
-
-
 
     <section class="demo" id="demo">
-        <div class="demo-text">Turn goals into measurable progress.</div>
-        <div class="demo-card"></div>
+      <div class="demo-text">Turn goals into measurable progress.</div>
+      <div class="demo-card"></div>
     </section>
-</body>
+  </body>
 </html>
