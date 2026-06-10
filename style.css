@@ -7,6 +7,7 @@
 
 html,
 body {
+  position: relative;
   color: white;
   background-color: black;
 }
@@ -315,11 +316,7 @@ header {
   transition-delay: 0.2s;
 }
 
-/* SIGNUP PAGE CSS */
-
-body {
-  position: relative;
-}
+/* SIGNUP-LOGIN PAGE CSS */
 
 .bg-glow {
   position: fixed;
@@ -379,7 +376,8 @@ body {
   background-color: rgb(0, 0, 0, 0.2);
 }
 
-.visual-box {
+
+.signup-visual-box {
   height: 450px;
   width: 100%;
   max-width: 300px;
@@ -466,6 +464,11 @@ input:hover {
   margin-top: 10px;
 }
 
+.register-txt{
+  font-size: 1rem;
+  font-family: Archivo Black,sans-serif;;
+}
+
 .register-btn:hover {
   box-shadow:
     0 0 5px #a32300,
@@ -531,5 +534,166 @@ input:hover {
   width: 100%;
   max-width: 30px;
   background-image: url(Assets/Images/Apple.png);
+  background-size: cover;
+}
+
+.login-section {
+  position: relative;
+  z-index: 1;
+  min-height: calc(100vh - 70px);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 2rem;
+  /* background: transparent;
+    border: 3px solid pink; */
+}
+
+.login-box {
+  height: 500px;
+  width: 100%;
+  max-width: 900px;
+  border-radius: 60px;
+  border-top: 1.9px solid rgba(255, 255, 255, 0.8);
+  border-left: 1.9px solid rgb(255, 255, 255, 0.8);
+  border-bottom: 1.8px solid rgb(255, 255, 255, 0.7);
+  border-right: 1.8px solid rgb(255, 255, 255, 0.7);
+
+  background-color: rgb(0, 0, 0, 0.3);
+
+  backdrop-filter: blur(10px);
+  box-shadow: 0 20px 30px rgb(0, 0, 0, 0.4);
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 25px;
+  gap: 50px;
+
+  transition: 0.3s ease-in;
+}
+
+.login-area{
+  width: 100%;
+  max-width: 500px;
+}
+
+.login-box:hover {
+  box-shadow: 0 20px 30px rgb(0, 0, 0, 0.6);
+  transform: translateY(-5px);
+  background-color: rgb(0, 0, 0, 0.2);
+}
+
+.trackx-logo-area{
+  height: 50px;
+  width: 100%;
+  max-width: 500px;
+  /* border: 1px solid; */
+  display: flex;
+  justify-content: center;
+}
+
+.trackx-logo{
+  height: 50px;
+  width: 100%;
+  max-width: 65px;
+  background-image:url(Assets/Images/trackx-logo.png);
+  background-size: cover;
+}
+
+.welcome-txt{
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.welcome-sentence{
+  color: rgb(255, 255, 255, 0.5);
+  font-size: 0.85rem;
+  padding-left: 5px;
+}
+
+.remember-info-pass-container{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.remember-email-pass{
+  display: flex;
+  gap: 5px;
+}
+
+.login-btn {
+  height: 50px;
+  width: 100%;
+  max-width: 500px;
+  background-color: #ff3700;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.2s ease-in;
+  margin-top: 10px;
+  font-size: 2rem;
+}
+
+.login-txt{
+  font-size: 1rem;
+  font-family: Archivo Black,sans-serif;;
+}
+
+.login-btn:hover {
+  box-shadow:
+    0 0 5px #a32300,
+    0 0 15px #a32300,
+    0 0 25px #a32300,
+    0 0 50px #a32300;
+}
+
+.login-btn:active {
+  transform: scale(0.97);
+}
+
+.login-text-section {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.login-line{
+  height: 1px;
+  width: 150px;
+  background-color: rgb(255,255,255,0.50);
+}
+
+.login-with-text{
+  font-size: .85rem;
+  color: rgb(255, 255, 255, 0.5);;
+}
+
+.login-companies{
+  display: flex;
+  justify-content: center;
+  gap: 70px;
+}
+
+.create-acc{
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+.login-visual-box {
+  height: 450px;
+  width: 100%;
+  max-width: 300px;
+  /* border: 1px solid; */
+  border-radius: 60px;
+  background-image: url(Assets/Images/Login-boy-visual.png);
   background-size: cover;
 }
