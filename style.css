@@ -201,6 +201,7 @@ a {
     0 0 25px rgba(163, 35, 0, 0.3),
     0 0 50px rgba(163, 35, 0, 0.3),
     0 0 100px rgba(163, 35, 0, 0.3);
+    font-family: Archivo Black, sans-serif;
 }
 
 .hero-subtitle {
