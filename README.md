@@ -13,16 +13,18 @@ This repository currently contains Version 0.1 of TrackX.
 
 ### Implemented
 
-* Landing Page
+* Landing Page With Responsiveness
 * Demo Page Structure
 * Basic Animated CTA Buttons
-  
-## Next Version Plan (v0.2)
+* Login Page UI
+* Sign Up Page UI
+
+## Next Version Plan (v0.3)
 
 ### Frontend
 
-* Login Page
-* Sign Up Page
+* Login Page Responsive
+* Sign Up Page Responsive
 
 *Note: These pages will be frontend-only for now.*
 
